@@ -1,4 +1,4 @@
-package fr.pchab.webrtcclient;
+package com.frank.androidrtc.webrtcclient;
 
 import android.opengl.EGLContext;
 import android.util.Log;

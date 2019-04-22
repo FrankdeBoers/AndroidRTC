@@ -21,5 +21,6 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation project(':webrtc-client')
+    implementation 'com.github.nkzawa:socket.io-client:0.4.2'
+    api 'io.pristine:libjingle:9127@aar'
 }

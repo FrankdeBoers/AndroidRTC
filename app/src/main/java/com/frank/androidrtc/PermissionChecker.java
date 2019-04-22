@@ -1,4 +1,4 @@
-package fr.pchab.androidrtc;
+package com.frank.androidrtc;
 
 import android.app.Activity;
 import android.content.Context;

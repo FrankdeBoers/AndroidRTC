@@ -1,4 +1,4 @@
-package fr.pchab.webrtcclient;
+package com.frank.androidrtc.webrtcclient;
 
 public class PeerConnectionParameters {
     public final boolean videoCallEnabled;

@@ -1,4 +1,4 @@
-package fr.pchab.androidrtc;
+package com.frank.androidrtc;
 
 import android.Manifest;
 import android.app.Activity;
@@ -18,8 +18,10 @@ import org.webrtc.VideoRendererGui;
 
 import java.util.List;
 
-import fr.pchab.webrtcclient.PeerConnectionParameters;
-import fr.pchab.webrtcclient.WebRtcClient;
+import fr.pchab.androidrtc.R;
+import com.frank.androidrtc.webrtcclient.PeerConnectionParameters;
+import com.frank.androidrtc.webrtcclient.WebRtcClient;
+
 
 public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
     private final static int VIDEO_CALL_SENT = 666;
